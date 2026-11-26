@@ -46,3 +46,7 @@ config/.hf_token
 # Optional huge archives (recordings stay; zip can be re-downloaded)
 data/fsdd/fsdd.zip
 data/fsdd/_extract/
+
+# Local report (not on GitHub)
+РГР_Леонтьев_Вариант53.docx
+
