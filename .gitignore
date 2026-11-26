@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Virtualenvs & caches
+venv/
+.venv/
+.pip-cache/
+
+# Heavy build / packaged app (~tens of GB)
+build/
+dist/
+tools/ffmpeg/
+*.spec.bak
+build_log.txt
+
+# Large pretrained models (download separately)
+models/whisper/
+models/qwen/
+models/hf-cache/
+models/whisper_finetuned/
+temp/
+temp/**
+
+# Keep only RGR checkpoint
+!models/rgr_crnn/
+!models/rgr_crnn/**
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log
+
+# Secrets / local tokens
+.env
+.env.*
+**/user_secrets*
+config/.hf_token
+*.gguf
+
+# Optional huge archives (recordings stay; zip can be re-downloaded)
+data/fsdd/fsdd.zip
+data/fsdd/_extract/

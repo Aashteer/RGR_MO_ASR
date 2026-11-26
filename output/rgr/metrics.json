@@ -1,0 +1,171 @@
+{
+  "n_test": 480,
+  "metrics": {
+    "accuracy": 0.9916666666666667,
+    "precision_macro": 0.9918367346938775,
+    "recall_macro": 0.9916666666666666,
+    "f1_macro": 0.991643365927431,
+    "precision_weighted": 0.9918367346938776,
+    "recall_weighted": 0.9916666666666667,
+    "f1_weighted": 0.9916433659274309,
+    "confusion_matrix": [
+      [
+        47,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        48,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        48,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        46,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        48,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        48,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        47,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        48,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        48,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        48
+      ]
+    ]
+  },
+  "classification_report": "              precision    recall  f1-score   support\n\n           0       1.00      0.98      0.99        48\n           1       1.00      1.00      1.00        48\n           2       0.98      1.00      0.99        48\n           3       1.00      0.96      0.98        48\n           4       1.00      1.00      1.00        48\n           5       1.00      1.00      1.00        48\n           6       1.00      0.98      0.99        48\n           7       0.98      1.00      0.99        48\n           8       0.98      1.00      0.99        48\n           9       0.98      1.00      0.99        48\n\n    accuracy                           0.99       480\n   macro avg       0.99      0.99      0.99       480\nweighted avg       0.99      0.99      0.99       480\n",
+  "errors": [
+    {
+      "file": "3_lucas_9.wav",
+      "speaker": "lucas",
+      "true": 3,
+      "pred": 9
+    },
+    {
+      "file": "3_lucas_7.wav",
+      "speaker": "lucas",
+      "true": 3,
+      "pred": 7
+    },
+    {
+      "file": "0_lucas_47.wav",
+      "speaker": "lucas",
+      "true": 0,
+      "pred": 2
+    },
+    {
+      "file": "6_yweweler_36.wav",
+      "speaker": "yweweler",
+      "true": 6,
+      "pred": 8
+    }
+  ],
+  "artifacts": {
+    "loss_curve": "C:\\Users\\l-dan\\Desktop\\ргр_МО\\output\\rgr\\loss_curve.png",
+    "accuracy_curve": "C:\\Users\\l-dan\\Desktop\\ргр_МО\\output\\rgr\\accuracy_curve.png",
+    "confusion_matrix": "C:\\Users\\l-dan\\Desktop\\ргр_МО\\output\\rgr\\confusion_matrix.png",
+    "mel_previews": [
+      "C:\\Users\\l-dan\\Desktop\\ргр_МО\\output\\rgr\\mel_4_nicolas_28.png",
+      "C:\\Users\\l-dan\\Desktop\\ргр_МО\\output\\rgr\\mel_7_yweweler_5.png",
+      "C:\\Users\\l-dan\\Desktop\\ргр_МО\\output\\rgr\\mel_3_george_41.png"
+    ]
+  }
+}

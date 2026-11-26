@@ -1,0 +1,11 @@
+# Полный набор (тяжёлый, ~3+ ГБ). На диске C: мало места — используйте:
+#   powershell -ExecutionPolicy Bypass -File scripts\install_windows.ps1
+#
+# Или по частям:
+#   pip install -r requirements-core.txt
+#   pip install -r requirements-llm.txt
+#   pip install -r requirements-train.txt   # только для обучения
+
+-r requirements-core.txt
+-r requirements-llm.txt
+-r requirements-train.txt

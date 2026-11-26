@@ -1,0 +1,4 @@
+# LLM (Qwen) — отдельно, т.к. большой пакет
+# После requirements-core.txt
+
+llama-cpp-python>=0.2.90

@@ -1,0 +1,74 @@
+{
+  "train": {
+    "n_files": 2040,
+    "n_speakers": 6,
+    "speakers": [
+      "george",
+      "jackson",
+      "lucas",
+      "nicolas",
+      "theo",
+      "yweweler"
+    ],
+    "per_class": {
+      "0": 204,
+      "1": 204,
+      "2": 204,
+      "3": 204,
+      "4": 204,
+      "5": 204,
+      "6": 204,
+      "7": 204,
+      "8": 204,
+      "9": 204
+    }
+  },
+  "val": {
+    "n_files": 480,
+    "n_speakers": 6,
+    "speakers": [
+      "george",
+      "jackson",
+      "lucas",
+      "nicolas",
+      "theo",
+      "yweweler"
+    ],
+    "per_class": {
+      "0": 48,
+      "1": 48,
+      "2": 48,
+      "3": 48,
+      "4": 48,
+      "5": 48,
+      "6": 48,
+      "7": 48,
+      "8": 48,
+      "9": 48
+    }
+  },
+  "test": {
+    "n_files": 480,
+    "n_speakers": 6,
+    "speakers": [
+      "george",
+      "jackson",
+      "lucas",
+      "nicolas",
+      "theo",
+      "yweweler"
+    ],
+    "per_class": {
+      "0": 48,
+      "1": 48,
+      "2": 48,
+      "3": 48,
+      "4": 48,
+      "5": 48,
+      "6": 48,
+      "7": 48,
+      "8": 48,
+      "9": 48
+    }
+  }
+}
